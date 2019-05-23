@@ -1,0 +1,18 @@
+  // /*--- MySQL2  ---*/   
+  // var mysql = require('mysql2');
+  // var sqlConn1 = mysql.createConnection({host: config_private.dbconn.host, user: config_private.dbconn.user, password: config_private.dbconn.password, database: config_private.dbconn.database});
+
+  // /*--- MySQL (1) ---*/    
+  // const mysql = require('mysql');
+  // var sqlConn1 = mysql.createConnection({host: config_private.dbconn.host, user: config_private.dbconn.user, password: config_private.dbconn.password, database: config_private.dbconn.database //, socketPath: ''socketPath'
+  // });
+
+  // sqlConn1.connect(function(err) {    
+  //   if (err) {
+  //     commons.customLog('sqlConn1.connect error> '+err, 'y');
+  //     commons.customLog('sqlConn1.connect> exit');
+  //     process.exit();             
+  //   } else {  
+  //     commons.customLog('sqlConn1.connect> ok');
+  //   };
+  // });
